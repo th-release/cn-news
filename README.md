@@ -11,14 +11,14 @@ services:
     working_dir: /app
     command: [ "java", "-jar", "coinNews-1.0-SNAPSHOT-all.jar" ]
 ```
-
+```
 tree:
   root:
     docker-compose.yml
     file:
       coinNews-1.0-SNAPSHOT-all.jar
       .env
-
+```
 env struct:
 
 ```
